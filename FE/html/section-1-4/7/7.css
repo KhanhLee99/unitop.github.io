@@ -1,0 +1,76 @@
+.tren{
+	height: 25px;
+	border-left: 7px solid  #00bbf3;
+	margin-bottom: 8px;
+}
+.tdtren{
+	text-decoration: none;
+	font-weight: bold;
+	color: #00bbf3;
+	padding-left: 8px;
+	font-size: 20px;
+}
+.tdtren:hover{
+	text-decoration: underline;
+}
+.trai{
+	width: 340px;
+	height: 420px;
+	margin-right: 8px;
+	background-color:  #F6F6F6;
+	float:left;
+
+}
+.anhtrai{
+	width: 340px;
+	height: 257px;
+}
+.tdtrai{
+	text-decoration: none;
+	color:#004f8b;
+	font-weight: bold;
+	font-size:18px;
+	font-family: tahoma;
+	display: block;
+	padding-left: 17px;
+	padding-right: 17px;
+}
+.tdtrai:hover{
+	color: #00bbf3;
+}
+p{
+	font-family: tahoma;
+	font-size: 13px;
+	color:#004f8b ;
+	display: block;
+	padding-left: 17px;
+	padding-right: 17px;
+}
+._1nho{
+	width: 167px;
+	height: 194px;
+	margin-right: 12px;
+	margin-bottom: 20px;
+	float: left;
+
+}
+.anhphai{
+	width: 167px;
+	height: 126px;
+}
+.tdphai{
+	text-decoration: none;
+	color:#004f8b;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 13px;
+	display: block;
+	line-height: 15px;	
+}
+.tdphai:hover{
+	color: #00bbf3
+}
+.phai{
+	width: 358px;
+	float:left;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Collapse </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+ 	<script type="text/javascript" src="1.js"></script>
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="1.css">
+</head>
+<body >
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-5">
+					<p>
+		 			<a class="btn btn-primary btn-block	" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+		 				Link with href
+		 			</a>
+		 		</p>
+		 		<div class="collapse" id="collapseExample">
+		 			<div class="card card-block">
+		 				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+		 			</div>
+		 		</div>
+			</div>
+		</div>
+	</div>
+		<div id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingOne">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Collapsible Group Item #1
+						</a>
+					</h4>
+				</div>
+				<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+					headingOne
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingOne">
+					<h4 class="panel-title">
+						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
+							Collapsible Group Item #1
+						</a>
+					</h4>
+				</div>
+				<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+					headingOne
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingOne">
+					<h4 class="panel-title">
+						<a class="collapsed btn btn-danger" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseOne">
+							Collapsible Group Item #1
+						</a>
+					</h4>
+				</div>
+				<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+					headingOne
+				</div>
+			</div>
+		</div>
+ 				
+</body>
+</html>

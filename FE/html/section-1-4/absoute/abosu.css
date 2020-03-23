@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding-top: 0;
+}
+
+._1sp{
+	width: 215px;
+}
+
+.tren{
+	width: 215px;
+	height: 240px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.layer1{
+	width: 215px;
+	height: 240px;
+	/*position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;*/
+}
+
+.nen{
+	width: 215px;
+	height: 240px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background-color: white;
+	opacity: 0;
+
+	transition: 0.3s;
+}
+.gachchan{
+	width: 215px;
+	height: 237.5px;
+	border-bottom: solid 2.5px #ee562d;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	opacity: 0;
+	transition: 0.3s;
+
+}
+._1sp:hover .gachchan{
+	opacity: 1;
+}
+
+._1sp:hover .nen{
+	opacity: 0.6;
+}
+
+._1sp:hover .icon{	
+	
+	transform: scale(1);
+}
+.nho:hover{
+	background-color: #ee562d;
+	color: white;
+}
+
+.icon{
+	width: 215px;
+	height: 240px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+	transform: scale(0);
+	transition: 0.3s;
+
+
+}
+.nho{
+	width: 30px;
+	width: 30px;
+	background-color: white;
+	padding: 5px;
+	color: gray;
+	margin-right: 5px;
+	box-sizing: border-box;
+
+	
+}
+.nho:last-child{
+	color: white;
+	background-color: #ee562d;
+}
+
+.duoi{
+	font-size: 16px;
+	/*position: absolute;
+	left: 10px;
+	bottom:0px;*/
+	text-align: center;
+}
+
+.link{
+	text-decoration: none;
+	color: black;
+	line-height: 28px;
+	padding-bottom: 10px;	
+	display: block;
+
+}
+del{
+	padding-left: 5px;
+	color: gray;
+}
+.gia{
+	color: #ee562d;
+}
+
+.link{
+	font-size: 18px;
+}
+
+.link:hover{
+	color: #ee562d;
+}

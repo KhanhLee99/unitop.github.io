@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a.a2 {
+    text-decoration: none;
+    padding: 10px 10px 0 27px;
+    display: block;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-image: url(cham.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+a.a1 {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 16px;
+    font-family: aroal;
+    font-weight: bold;
+    color: #333333;
+}
+
+.giua {
+    background-color: #f2efef;
+}
+
+img {
+	width: 303px;
+	height: 227px;
+	padding-left: 10px;
+}
+.tren1{
+	width: 85px;
+	height: 43px;
+	border-top: 7px solid #ff0000;
+}
+.tren2{
+	width: 140px;
+	height: 43px;
+	border-top: 7px solid #fe8f01;
+}
+.tren3{
+	width: 102px;
+	height: 43px;
+	border-top: 7px solid #0000ff;
+}
+.tren4{
+	width: 165px;
+	height: 43px;
+	border-top: 7px solid #1abc9c;
+}
+.tren5{
+	width: 133px;
+	height: 43px;
+	border-top: 7px solid #2882bc;
+}
+.tren6{
+	width: 115px;
+	height: 43px;
+	border-top: 7px solid #14a31b;
+}
+.xahoi{
+	color: #ff0000;
+}
+.nghethuat{
+	color: #fe8f01;
+}
+.thegioi{
+	color: #0000ff;
+}
+.sdl{
+	color: #1abc9c;
+}
+.congnghe{
+	color: #2882bc;
+}
+.thethao{
+	color: #14a31b;
+}
+.td{
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 20px;
+	
+	padding: 10px;
+	display: block;
+}
+
+.to{
+	width: 325px;
+	height: 460px;
+	border: 1px solid #cccccc;
+	margin-right: 17px;
+	margin-bottom: 17px;
+	float:left;
+}
+.cucto{
+	width: 700px;
+}
+.a1:hover,.a2:hover{
+	color: #e94002;
+}
+.td:hover{
+	color: #e94002;
+}

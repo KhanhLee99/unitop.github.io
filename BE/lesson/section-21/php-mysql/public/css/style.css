@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    border: 1px solid red;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper .header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper .header ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.wrapper .header ul li {
+    float: left;
+    padding: 10px 15px;
+}
+
+.wrapper .header {
+    background: red;
+    height: 50px;
+}
+
+.wrapper .header.mod-about {
+    background: pink;
+    height: 50px;
+}
+
+.wrapper .header.mod-news {
+    background: green;
+    height: 50px;
+}
+
+.wrapper .header.mod-page {
+    background: gray;
+    height: 50px;
+}
+
+.wrapper .header.mod-product {
+    background: yellow;
+    height: 50px;
+}
+
+.wrapper .footer {
+    background: red;
+    padding: 10px 0;
+}
+
+.wrapper .content {
+    min-height: 500px;
+    padding-top: 20px;
+}

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    width: 300px;
+    text-align: center;
+    background: #3B5998;
+    padding-bottom: 13px;
+    margin: 100px auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+.title_form_login {
+    font-size: 45px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.input {
+    font-size: 20px;
+    margin: 16px 0;
+    padding: 9px 0;
+    background: #ececec;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.cokkie {
+    margin-bottom: 15px;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.btn_login {
+    margin-bottom: 35px;
+    padding: 7px 17px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background: #4267B2;
+    color: white;
+    cursor: pointer;
+}
+
+.lost_password {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.lost_password:hover {
+    text-decoration: underline;
+}
+
+.remember-me {
+    color: white;
+    font-size: 18px;
+    padding-top: 7px;
+}

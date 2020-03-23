@@ -1,0 +1,29 @@
+*{margin: 0;padding: 0;}
+.bo .footer i.icon{
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+.bo .header .navbar .navbar-brand.logo img{
+	width: 40%;
+	height: 10%;
+}
+.bo .header .navbar{
+	background: #F0A52B;
+	border-radius: 0;
+}
+.bo .header .navbar .menuphai li{
+	padding: 10px 13px;
+}
+.bo .header .navbar .menuphai li a{
+	color: white;
+	font-size: 17px;
+	font-weight: 600;
+}
+.footer .container .row .col-xs-4.col1, .footer .container .row .col-xs-4.col2{
+	border-right: 1px solid #E7E7E7;
+}
+
+.bo .content .container{
+	min-height: 500px;
+	border: 1px solid #F0A52B;
+}

@@ -1,0 +1,20 @@
+.block_comment {
+    margin-top: 20px;
+    width: 500px;
+    min-height: 300px;
+    border: 1px solid #c6c6c6;
+}
+
+.name {
+    text-decoration: none;
+    color: #4267B2;
+}
+
+.name:hover {
+    text-decoration: underline;
+}
+
+.time {
+    color: #c6c6c6;
+    padding-right: 2px;
+}

@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'segoe ui light';
+}
+
+.so1, .so2, .so3{
+	background-image: url(1.jpg);
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	background-attachment: fixed;
+	/*background-position-y: 200px;*/	
+}
+.so21{
+	background-image: url(2.jpg);
+	text-align: center;
+	padding-top: 100px;
+}
+.so31{
+	background-image: url(3.jpg);
+}
+
+.ndso1{
+	width: 1100px;
+	/*text-align: left;*/
+	font-size: 44px;
+	color: white;
+	padding-left: 60px;
+}
+
+.ndso2 {
+	color: white;
+}
+
+
+p{
+	padding-bottom: 10px;
+}
+.chunho{
+	font-size: 20px;
+	padding-top: 125px;
+}
+.chuto{
+	font-weight: bold;
+	font-size: 65px;
+}
+.shop{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	background-color: black;
+	padding: 7px 20px;
+	font-weight: bold;
+}
+.ndso2 .shop{
+	background-color: white;
+	color: black;
+}
+
+.shop:hover{
+	color: black;
+	background-color: transparent;
+	border: 1px solid black;
+}
+
+.ndso1 .shop:hover{
+	color: white;	
+	background-color: transparent;
+	border: 1px solid black;
+}
+
+
+.ndso2 .shop:hover{
+	color: white;
+	background-color: transparent;
+	border: 1px solid white;
+}
+
+.ndso3{
+	width: 1013px;
+	height: 700px;
+	text-align: right;
+}
+
+.ndso3 .chunho{
+	padding-top: 458px;
+}
+p{
+	padding-bottom:33px;
+}
+

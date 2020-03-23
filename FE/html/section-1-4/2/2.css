@@ -1,0 +1,52 @@
+a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 21.5px;
+	font-family: SFD-Bold;
+	color: #eee;
+	line-height: 28px;
+}
+
+a:hover{
+	color: orange;
+}
+p.pho{
+	padding-left: 20px;
+	padding-top: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	
+
+}
+div{
+	background-image: url(nen1.png);
+	height: 51px;
+}
+
+img{
+	width: 221px;
+	height: 144px;
+	float: left;
+	padding-right: 20px;
+
+
+}
+
+
+article{
+	width: 700px;
+	height: 162px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-image: url(nen.png);
+	border-bottom: 1px solid #485C50;
+
+}
+
+section{
+	width: 700px;
+	
+	
+	overflow: hidden;
+}

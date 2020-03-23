@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;}
+
+.wrapper{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+.header, .footer{
+	padding: 20px 30px;
+	background: orange;
+
+	text-align: center;
+}
+.content{
+	height: 500px;
+
+	text-align: center;
+	
+}
+p{
+	padding: 20px 30px;
+}

@@ -1,0 +1,130 @@
+*{margin: 0; padding: 0;}
+
+nav.navbar.navbar-light.bg-faded.menutop.navbar-fixed-top {margin-top: 80px;}
+
+.navbar-light.menutop .navbar-nav a.nav-link {
+    /* padding-top: 130px; */
+}
+
+.navbar-light .navbar-brand img {width: 1;height: 40px;} 
+.menutop{
+	background-color: transparent;
+}
+
+.navbar-light.menutop .navbar-nav a.nav-link{
+	color: #fefefe;
+	font-size: 18px;
+	font-family: 'Nunito Sans', sans-serif;
+	padding: 0px 15px;
+	font-weight: 700;
+}
+
+.navbar-light.menutop .navbar-nav a.nav-link:hover{
+	background: #fefefe;
+	color: #1a1b21;
+
+}
+a.btn.btn-outline-secondary.nut{
+	border-radius: 0;
+	border: 2px solid white;
+	font-weight: bold;
+	color: white;
+}
+a.btn.btn-outline-secondary.nut:hover{
+	background-color: white;	
+	color: #1a1b21;
+}
+
+.edit_h4{
+	font-size: 35px;
+	padding-top: 50px;
+	padding-bottom: 12px;
+}
+.edit_p{
+	font-size: 17px;
+	padding-bottom: 60px;
+}
+.noidung{
+	background-color: #f77010;
+}
+
+.no-gutter [class *='col-']{
+	padding-left: 0px; 
+	padding-right: 0px;
+}
+
+.row.no-gutter .media{
+	background: white;
+	margin-right: 15px;
+	margin-bottom: 100px;
+	border-bottom: 1px solid black;
+
+}
+
+.edit_a {
+	padding-top: 15px;
+	display: block;
+	padding-bottom: 5px;
+}
+
+.row.no-gutter .media img{
+	padding-right: 13px;
+}
+
+
+
+/*//////////////////////////////////////////////*/
+
+@media(max-width: 576px){
+	*{}
+
+.navbar-light.menutop.navbar-fixed-top .navbar-brand img {
+    height: auto;
+    width: 114px;
+}
+
+nav.navbar.navbar-light.bg-faded.menutop.navbar-fixed-top {
+    margin-top: 0px;
+}
+
+.navbar-light.menutop .navbar-brand img {
+    width: 74px;
+    height: auto;
+}
+
+.navbar-light.menutop .navbar-nav a.nav-link {
+    padding: 10px 0px;
+}
+
+nav.navbar.navbar-light.bg-faded.menutop.navbar-fixed-top {
+    background: green;
+}
+
+nav.navbar.navbar-light.bg-faded.menutop.navbar-fixed-top {}
+
+button.navbar-toggler.hidden-sm-up.float-sm-right {
+    background-color: white;
+    border-radius: 0px;
+    float:  right;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+h2.display-4 {}
+
+.carousel-caption.text-xs-left.mb-3 {
+    padding-bottom: 0px;
+    /* margin-bottom: 0px; */
+}
+
+.carousel-caption.text-xs-left.mb-3 {}
+
+h5 {
+    font-size: 12px;
+}
+
+h2.display-4 {
+    font-size: 25px;
+}
+
+}

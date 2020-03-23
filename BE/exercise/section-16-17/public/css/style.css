@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    border: 1px solid red;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.wrapper .header {
+    background-color: skyblue;
+}
+
+.wrapper .header.mod-page {
+    background-color: green;
+}
+
+.wrapper .header.mod-product {
+    background-color: orange;
+}
+
+.wrapper .footer.mod-page {
+    background-color: green;
+}
+
+.wrapper .footer.mod-product {
+    background-color: orange;
+}
+
+.menu {
+    margin-left: 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 0 30px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 50px;
+    color: red;
+    padding: 15px 0;
+}
+
+.admin {
+    font-size: 22px;
+    position: absolute;
+    z-index: 0;
+    right: 25px;
+    top: 30px;
+}
+
+.wrapper .footer {
+    background-color: skyblue;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 0;
+    color: red;
+}
+
+.wrapper .content {
+    min-height: 469px;
+}

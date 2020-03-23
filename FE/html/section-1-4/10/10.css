@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.tren{
+	width: 475px;
+	height: 106px;
+	background-image: url(10.jpg);
+	background-size: cover;
+	padding-top: 256px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+.tdtren{
+	text-decoration: none;
+	font-family: tahoma;
+	color: white;
+	font-size: 20px;
+	padding-bottom: 9px;
+	display: block;
+}
+.ndtren{font-family: tahoma;color: white;font-size: 12.5px;}
+.chu{
+	background-color: #00000094;
+	padding: 10px 10px;
+}
+.to{
+	width: 475px;
+	height: 610px;
+	border: 1px solid red;
+}
+.tdgiua{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-decoration: none;
+	display: block;
+	/*background: url(camera.png) no-repeat 2px bottom;*/
+}
+.tdgiua:hover{
+	color: #e94006;
+}
+.tdgiuak{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+	padding-left: 10px;
+	padding-top: 10px;
+	text-decoration: none;
+	display: block;
+	/*background: url(cham.png) no-repeat 5px bottom;*/
+}
+.tdgiuak:hover{
+	color: #e94006;
+}
+._11{
+	padding-right: 7px;
+	color: #999999;
+}
+ ._12{
+ 	color: #999999;
+	font-size: 5px;
+	position: relative;
+	bottom: 2px;
+	left: 5px;
+
+	padding-right: 15px;
+}
+
+
+
+
+

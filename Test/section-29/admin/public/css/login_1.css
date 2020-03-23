@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    width: 100%;
+}
+
+.about {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    width: 41%;
+    background: #0093FF;
+    float: left;
+    height: 657px;
+    box-sizing: border-box;
+}
+
+.chu {
+    padding: 0 105px;
+    margin-top: 33%;
+}
+
+h3.logo {
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+b {
+    font-size: 28px;
+    padding-bottom: 17px;
+    display: block;
+}
+
+p {
+    font-size: 16px;
+}
+
+.form_login {
+    width: 59%;
+    float: left;
+}
+
+.form {
+    width: 45%;
+    margin: 22% auto;
+}
+
+p.login {
+    font-weight: bold;
+    font-size: 16.5px;
+    color: black;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #0092FE;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.form-control {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+    background: #F7F7F7;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: black;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+.form-control:hover {
+    background: #EAEAEA;
+}
+
+.form-submit {
+    background: #0092FE;
+    padding: 11px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    margin-top: 22px;
+}

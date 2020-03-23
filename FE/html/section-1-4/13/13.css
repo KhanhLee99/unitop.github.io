@@ -1,0 +1,65 @@
+*{margin:0;
+padding:  0;}
+
+.banner{
+	text-align: center;
+}
+.vohinh{
+	width: 790px;
+	margin: auto;
+}
+
+.noidung{
+	width: 600px;
+	margin-top: 30px;
+}
+
+.td h2{
+	font-size: 20px;
+	color: black;
+	border-bottom: 10px solid gray;
+	padding-bottom: 20px;
+}
+.td{
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.nho{
+	width: 290px;
+	padding-right: 15px;
+	float:left;
+}
+
+div.tinto{
+	height: 290px;
+	border-bottom: 1px solid gray;
+	padding-bottom: 25px;
+}
+.tdtinto{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+.thongtin{
+	font-size: 14px;
+	color: gray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.duoi{
+	height: 150px;
+	margin-top: 25px;
+}
+.anhduoi{
+	width: 150px;
+	float: left;
+	padding-right: 5px;
+}
+.tdduoi{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+}

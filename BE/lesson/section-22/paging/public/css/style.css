@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    border: 1px solid red;
+    width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper .header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper .header ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.wrapper .header ul li {
+    float: left;
+    padding: 10px 15px;
+}
+
+.wrapper .header {
+    background: red;
+    height: 50px;
+}
+
+.wrapper .header.mod-about {
+    background: pink;
+    height: 50px;
+}
+
+.wrapper .header.mod-news {
+    background: green;
+    height: 50px;
+}
+
+.wrapper .header.mod-page {
+    background: gray;
+    height: 50px;
+}
+
+.wrapper .header.mod-product {
+    background: yellow;
+    height: 50px;
+}
+
+.wrapper .footer {
+    background: red;
+    padding: 10px 0;
+}
+
+.wrapper .content {
+    min-height: 500px;
+    padding-top: 20px;
+}
+
+.paging {
+    float: right;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.paging li {
+    float: left;
+    border: 1px solid #dedede;
+    padding: 4px 9px;
+    margin: 0 2px;
+}
+
+.paging li a {
+    text-decoration: none;
+    color: black;
+}
+
+.clearfix {
+    height: 50px;
+}
+
+.paging li.active {
+    border: 1px solid #f00;
+}
+
+.list_user {
+    margin: 10px auto;
+    width: 100%;
+}
+
+.list_user tr td {
+    border-bottom: 1px solid #333;
+    padding: 8px 15px;
+}
+
+.list_user thead tr td {
+    border-bottom: 2px solid #333;
+    font-weight: bold;
+}
