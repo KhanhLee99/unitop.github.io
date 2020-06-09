@@ -13,9 +13,9 @@ $(document).ready(function() {
                 // console.log(data.district);
                 // $('#district').html(data.district);
                 $.each(data.district, function() {
-                    console.log("district_id: " + this.district_id);
-                    console.log("district_name: " + this.district_name);
-                    console.log("city_id: " + this.city_id);
+                    // console.log("district_id: " + this.district_id);
+                    // console.log("district_name: " + this.district_name);
+                    // console.log("city_id: " + this.city_id);
                 })
             },
             error: function(xhr, ajaxOptions, thrownError) {
