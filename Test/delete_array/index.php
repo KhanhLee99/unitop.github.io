@@ -11,7 +11,7 @@ $array = array(
 );
 
 foreach($array as $key => $value){
-    if($value->tuoi == 29){
+    if($value['tuoi'] == 29){
         unset($array[$key]);
     }
 }
@@ -24,3 +24,11 @@ echo("<pre>");
 
 // echo($array[1]['name']);
 
+$x = array("id" => 1);
+$y = array("id" => "1");
+
+if($x == $y) {
+    echo "true";
+} else {
+    echo "false";
+}

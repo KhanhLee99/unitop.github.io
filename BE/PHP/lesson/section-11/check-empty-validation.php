@@ -18,9 +18,9 @@ if(isset($_POST['btn_Reg'])){
     }
     
     if(!empty($error)){
-//        echo "<pre>";
-//        print_r($error);
-//        echo "</pre>";
+       echo "<pre>";
+       print_r($error);
+       echo "</pre>";
     }
     else{
         echo "username: {$username} - password: {$password}";

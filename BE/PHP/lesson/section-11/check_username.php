@@ -9,9 +9,9 @@ if(isset($_POST['btn_Reg'])){
     elseif (strlen($_POST['username']) <6 || strlen($_POST['username']) >32) {
     $error['username'] = "6 - 32 kí tự thôi cu";
 }
-elseif (!preg_match($patten, $_POST['username'], $matchs)) {
-$error['username'] = "Sai định dạng rồi cu";
-}
+    elseif (!preg_match($patten, $_POST['username'], $matchs)) {
+    $error['username'] = "Sai định dạng rồi cu";
+    }
     else{
         $username= $_POST['username'];
     }

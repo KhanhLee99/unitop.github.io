@@ -18,7 +18,7 @@ class B extends A{
         return $this -> attr_1;
     }
 }
-$b = new b;
+$b = new b();
 $b -> attr_2 = "class B";
 $b -> method_1();           // OK
 echo $b -> method_3();      // 10

@@ -43,4 +43,4 @@ function input_html($name, $value, $option = array()){
     $input = "<input type = 'text' name = '{$name}' value ='{$value}' id = '{$id}' class = '{$class}' /input>";
     echo $input;
 }
-input_html('username','',array('id' => 'username', 'class' => 'form_input'));
+input_html('username','khanh',array('id' => 'username', 'class' => 'form_input'));

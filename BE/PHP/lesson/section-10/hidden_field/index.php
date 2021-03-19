@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
     if (empty($error)) {
 ;
-        if ($username == $info_user['username'] || $password == $info_user['password']) {
+        if ($username == $info_user['username'] && $password == $info_user['password']) {
             $redirect_to = $_POST['redirect_to'];
             header("location:{$redirect_to}");
         } else {

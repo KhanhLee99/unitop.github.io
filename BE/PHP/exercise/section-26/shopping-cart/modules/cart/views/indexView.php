@@ -1,5 +1,4 @@
 <?php
-// show_array($list_cart_buy);
 get_header();
 ?>
 

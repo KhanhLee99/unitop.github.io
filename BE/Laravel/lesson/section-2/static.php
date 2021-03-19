@@ -22,5 +22,5 @@ class Demo{
     }
 }
 
-$demo = new demo;
+$demo = new Demo;
 ?>

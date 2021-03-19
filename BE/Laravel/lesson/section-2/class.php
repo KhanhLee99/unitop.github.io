@@ -12,7 +12,7 @@ class Rectangle{
     }
 } 
 
-$a = new Rectangle();
+$a = new Rectangle;
 $a -> width = 4;
 $a -> height = 5;
 echo "Chu vi: ".$a -> getPerimeter()."</br>";

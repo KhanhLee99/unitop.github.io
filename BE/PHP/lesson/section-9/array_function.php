@@ -52,6 +52,8 @@ else{
 
 print_r(array_values($my_array_2));
 echo "<br>";
+print_r($my_array_2);
+echo "<br>";
 
 #array_search
 

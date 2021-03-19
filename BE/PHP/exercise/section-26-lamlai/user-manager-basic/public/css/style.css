@@ -1,0 +1,18 @@
+*{margin:0;padding:0;}
+.wrapper{
+	color: black;
+}
+.header .navbar .container{
+	background: pink;
+	margin-top: 0;
+}
+.header .navbar{
+	background: transparent;
+}
+.header .navbar ul li a{
+	padding: 10px 25px;
+}
+.footer .container{
+	padding:10px 20px;
+	background: pink;
+}

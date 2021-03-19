@@ -42,7 +42,9 @@ echo implode(',', $my_array_2).'<br>';
 $array_temp = explode(' ', $my_Str);
 
 print_r($array_temp);
-echo '<br>';    
+echo '<br>';
+echo implode('', $array_temp).'<br>';  
+echo '<br>';  
 
 #htmlspecialchars
 
